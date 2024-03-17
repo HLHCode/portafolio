@@ -10,77 +10,77 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+   <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">HlH</a>
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedcontent"aria-controls="navbarSupportedcontent" aria-expanded="false" aria-lobel="togle navegation">
-             <samp class="navbar-toggler-icon"></samp>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedcontent" aria-controls="navbarSupportedcontent" aria-expanded="false"
+                aria-lobel="togle navegation">
+                <samp class="navbar-toggler-icon"></samp>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedcontent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 my-sm-2 my-2">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 my-sm-2 my-2 ">
                     <li class="nav-item ">
                         <a href="index.html" class=" nav-link active text-white" aria-current="page">Inicio</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contactos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                     <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Conocer Mas</a>
-                    </li>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#" >Historia</a></li>
-                    <li><a class="dropdown-item" href="#" >Servicios</a></li>
-                    <li><a class="dropdown-item" href="#" >Historia</a></li>
-                    </ul>
+                    <li class="dropdown nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Contactos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item bi bi-whatsapp" href="https://api.whatsapp.com/send/?phone=18298471345&text&type=phone_number&app_absent=0"></a></li>
+                          <li><a class="dropdown-item bi bi-linkedin" href="https://www.linkedin.com/in/harlen-lorenzo-h-0445b8229/"></a></li>
+                          <li><a class="dropdown-item bi bi-github" href="https://github.com/HLHCode"></a></li>
+                        </ul>
+                      </li>
                 </ul>
 
             </div>
-            
+
         </div>
     </nav>
 
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-8">
-                <img src="img/Perfil.jpg"class="img-fluid rounded" alt="#">
+                <img src="img/Perfil.jpg" class="img-fluid rounded" alt="#">
             </div>
             <div class="col-lg-6 col-md-6 col-12 my-5">
-             <h1 class="py-3">Hola Soy Harlen</h1>
-             <h4 class="text-primary">Frontend Developer</h4>
-             <p class="lead">Soy Ingeniero en Sistema y Computación, Graduado en la universidad Dominicana O&M y me especializo en Desarrollo Web.</p>
-             <i class="bi bi-github"></i>
-             <i class="bi bi-linkedin"></i>
-             <i class="bi bi-whatsapp"></i>
+                <h1 class="py-3">Hola Soy Harlen</h1>
+                <h4 class="text-primary">Frontend Developer</h4>
+                <p class="lead">Soy Ingeniero en Sistema y Computación, Graduado en la universidad Dominicana O&M y me
+                    especializo en desarrollo <strong>WEB, INTERFACES DE USUARIO</strong></p>
             </div>
-            
+
         </div>
 
     </div>
-    
-    <form class="formulario" action="https://formsubmit.co/harlenlorenzo24@gmail.com" method="POST">
-       <h3 class="py-5 text-white text-center">"Contactame"</h3>
+
+    <form id="Form" class="formulario" action="https://formsubmit.co/harlenlorenzo24@gmail.com" method="POST">
+        <h3 class="py-5 text-white text-center">"Contactame"</h3>
         <div class="container py-3">
-         <label for="Name">Nombre y Apellido</label>
-        <input type="text" class="form-control my-2 py-2 my-md-1" name="Name" id="Name" placeholder="Introduzca Nombre y Apellido">
+            <label for="Name">Nombre y Apellido</label>
+            <input type="text" class="form-control my-2 py-2 my-md-1 text-white" name="Name" id="Name"
+                placeholder="Introduzca Nombre y Apellido">
 
-        <label for="email">Correo Electronico</label>
-        <input type="email" class="form-control my-2 py-2 my-md-1" name="email" id="email" placeholder="Introduzca Su Correo">
+            <label for="email">Correo Electronico</label>
+            <input type="email" class="form-control my-2 py-2 my-md-1 text-white" name="email" id="email"
+                placeholder="Introduzca Su Correo">
 
-       <label for="textarea">Comentario</label>
-       <textarea name="textarea"class="form-control my-2 py-2 my-md-1" id="textarea" cols="15" rows="5"></textarea>
+            <label for="textarea">Comentario</label>
+            <textarea name="textarea" class="form-control my-2 py-2 my-md-1 bg-black text-white" id="textarea" cols="15"
+                rows="5"></textarea>
 
-        <input type="submit" class="enviar form-control my-2 py-2 btn btn-primary"  value="Enviar">
-        
-        <input type="hidden" name="_next" value="https://hlhcode.github.io/portafolio/">
-        <input type="hidden" name="_captcha" value="false">
+            <input type="submit" class="enviar form-control my-2 py-2 btn btn-primary" value="Enviar">
+
+            <input type="hidden" name="_next" value="https://hlhcode.github.io/portafolio/">
+            <input type="hidden" name="_captcha" value="false">
 
         </div>
 
     </form>
+
+
    
 
 
